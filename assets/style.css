@@ -37,15 +37,17 @@ header nav ul {
    padding: 10px;
    margin: 0;
    display: flex;
-   justify-content: center;     
+   justify-content: center;  
+   flex-wrap: nowrap;   
 }
 
 header nav ul li {
    margin: 0px 0px 0px 10px;
     padding: 0px 0px 0px 50px;
-    display: inline-block;
+    display: flex;
     position: relative;
     top: 10px;
+    flex-wrap: nowrap; 
 }
 
 .quote {
