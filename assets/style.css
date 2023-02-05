@@ -5,70 +5,48 @@
 body {
    background-color: #0d1117;
    color: white;
+   margin:0;
 }
 
 header {
     background:  #161b22;
     color: white;
-   padding: 10px;
+   padding: 25px 30px 20px 30px;
    display: flex;
-   margin:  0;
+   justify-content: space-between;
 }
 
 H1 {
     font-size: 60px;
-    padding: 10px;
     margin: 0;
-    width: 30%;  
-    justify-content: center;  
-    white-space: nowrap; 
-}
-
-header nav {
-   padding: 10px;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   width: 60%;
-}
-
-header nav ul {
-    font-size: 30px;
-   list-style-type: none;
-   padding: 10px;
-   margin: 0;
-   display: flex;
-   justify-content: center;  
-   white-space: nowrap;  
-   position: relative;
-   top: 5px; 
-}
-
-header nav ul li {
-   margin: 0px 0px 0px 10px;
-    padding: 0px 0px 0px 50px;
-    display: flex;
     position: relative;
     top: 10px;
 }
 
+header nav {
+   display: flex;
+   padding: 30px 0px 0px 0px;
+   align-items: center;
+   color: white;
+   
+}
+
+header nav a {
+   font-size: 30px; 
+   margin: 0px 0px 0px 50px ;
+   color: white;
+
+
+}
+
 .quote {
-    display: block;
-    text-align: center;
-    justify-content: center;
     font-size: 35px;
-    padding: 10px;
-    margin: 10px;
-    border: 10px;
+   text-align: center;
 }
 
 section {
    padding: 10px;
    margin: 10px;
-}
-
-.AboutMeBg {
-    display: block;
 }
 
 #AboutMe {
@@ -78,25 +56,28 @@ section {
     padding: 10px;
     border-radius: 75px;
     width: 220px;
-    height: fit-content;
-    margin: auto;
+   margin: auto;
     background-color: #161b22;  
 }
+
  .AboutMe {
     display: flex;
     padding: 10px;
     margin: 20px; 
+    justify-content: center;
+
  }
 
  .AboutMe img {
     margin: auto;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
  }
 
  .AboutMe p {
     margin:auto;
-    padding: 20px;
-    border: 20px;
+    padding: 20px 0px 20px 60px;
+    text-align: left;
+
  }
 
  #Work {
@@ -106,7 +87,6 @@ section {
    padding: 10px;
    border-radius: 75px;
    width: 250px;
-   height: fit-content;
    margin: auto;
    background-color: #161b22;
  }
@@ -115,7 +95,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding: 10px;
     border: 10px;
     margin: 20px;
@@ -124,6 +103,8 @@ section {
 .projects img {
 padding: 10px;
 border: 10px;
+width: 500px;
+height: 333px;
 }
 
 .projects p {
@@ -133,60 +114,65 @@ border: 10px;
 }
  
  footer {
-   margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: no wrap;
-   display: flex;
    margin: 0;
+    padding: 20px;
+    display: flex;
    justify-content: center;
    align-items: center;
+   align-content: center;
    background:  #161b22;
    color: white;
   
  }
 
  #ContactMe {
-    display: flex;
     font-size: 40px;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
     margin: 0;
     
  }
 
  footer nav {
+   font-size: 20px;
     display: flex;
     padding: 10px;
-    justify-content: center;
     margin: 0;
-    align-items: center;
     position: relative;
-    top: 10px;
+    top: 5px;
+    color: white;
  }
 
- 
-footer section {
-   display: flex;
-   margin: 0;
-   padding: 0;
-   justify-content: center;
-   align-items: center;
+footer a {
+   margin: 0px 0px 0px 50px ;
+   color: white;
 }
 
- footer nav ul {
-    list-style-type:none;
-    display: flex;
-    font-size: 20px;
-    padding: 10px;
-    margin: 0;
-    justify-content: center;
-    align-items: center;   
+a:hover {
+color: blue;
+}
+
+
+ 
+
+ /*MEDIA SCREEN (makes everything wrap and look aligned when 
+ view the site in a smaller screen, portrait mode, smaller browser
+ window than full screen)*/
+
+ /* Tablets  */
+ @media screen and (max-width: 992px) {
+   
  }
 
- footer nav ul li {
-   padding: 20px 30px 30px 30px;
-   align-items: center;
-   justify-content: center;
- }
+ /* Large smartphones  */
+@media screen and (max-width: 768px) {
+    
+     
+   }
+ 
+ 
+ /* Small smartphones  */
+ @media screen and (max-width: 576px) {
+        
+   }
+
+ 
