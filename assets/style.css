@@ -28,6 +28,7 @@ header nav {
    padding: 30px 0px 0px 0px;
    align-items: center;
    color: white;
+   white-space: nowrap;
    
 }
 
@@ -98,13 +99,13 @@ section {
     padding: 10px;
     border: 10px;
     margin: 20px;
+    flex: 1 0 600px;
  }
 
 .projects img {
 padding: 10px;
 border: 10px;
-width: 500px;
-height: 333px;
+width: 100%;
 }
 
 .projects p {
@@ -158,21 +159,28 @@ color: blue;
  view the site in a smaller screen, portrait mode, smaller browser
  window than full screen)*/
 
- /* Tablets  */
- @media screen and (max-width: 992px) {
+ /*  Large Phones (14 Pro max and under) */
+ @media screen and (max-width: 1179px) {
+   header {
+      align-items:center;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   header nav a {
+      margin: 0px 15px;
+   }
+}
+
+ /* iPhone 8 and smaller  */
+ @media screen and (max-width: 750px) {
+   header  {
+    
+    
+
+   }
    
  }
 
- /* Large smartphones  */
-@media screen and (max-width: 768px) {
-    
-     
-   }
- 
- 
- /* Small smartphones  */
- @media screen and (max-width: 576px) {
-        
-   }
 
  
