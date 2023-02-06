@@ -174,8 +174,9 @@ color: blue;
 
  /* Large Phones (iPhone 14 Pro Max)  */
  @media screen and (max-width: 430px) {
-   body  {
-    width: 70vh;
+   header  {
+      width: 100vh;
+    
 
 
    }
