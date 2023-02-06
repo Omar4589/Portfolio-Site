@@ -159,8 +159,8 @@ color: blue;
  view the site in a smaller screen, portrait mode, smaller browser
  window than full screen)*/
 
- /*  Large Phones (14 Pro max and under) */
- @media screen and (max-width: 1179px) {
+ /*  Tablets (iPads) */
+ @media screen and (max-width: 1024px) {
    header {
       align-items:center;
       flex-direction: column;
@@ -172,14 +172,18 @@ color: blue;
    }
 }
 
- /* iPhone 8 and smaller  */
- @media screen and (max-width: 750px) {
-   header  {
-    
-    
+ /* Large Phones (iPhone 14 Pro Max)  */
+ @media screen and (max-width: 430px) {
+   body  {
+    width: 70vh;
+
 
    }
-   
+
+   .AboutMe, footer {
+      flex-direction: column;
+   }
+
  }
 
 
