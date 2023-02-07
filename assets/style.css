@@ -81,7 +81,7 @@ section {
  .AboutMe p {
    font-size: 25px;
     margin:auto;
-    padding: 20px 0px 20px 60px;
+    padding: 20px;
     text-align: center;
  }
 
@@ -91,6 +91,7 @@ section {
 
  #bio {
    flex-direction: column;
+   justify-content: center;
  }
 
  #Work {
