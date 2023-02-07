@@ -75,6 +75,7 @@ section {
  }
 
  .AboutMe p {
+   font-size: 25px;
     margin:auto;
     padding: 20px 0px 20px 60px;
     text-align: left;
@@ -181,8 +182,32 @@ color: blue;
 
    }
 
+   #AboutMe {
+      font-size: 45px;
+      padding: 20px;
+      width: 280px;
+
+  }
+
+  #Work {
+   width: 280px;
+  
+ }
+
+   header h1 {
+      font-size: 70px;
+   }
+
+   header nav a {
+      font-size: 40px;
+   }
+
    .AboutMe, footer {
       flex-direction: column;
+   }
+
+   .AboutMe p {
+      font-size: 35px;
    }
 
  }
