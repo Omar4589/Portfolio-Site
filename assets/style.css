@@ -66,6 +66,7 @@ section {
     padding: 10px;
     margin: 20px; 
     justify-content: center;
+    align-items: center;
 
  }
 
@@ -78,8 +79,15 @@ section {
    font-size: 25px;
     margin:auto;
     padding: 20px 0px 20px 60px;
-    text-align: left;
+    text-align: center;
+ }
 
+ #Hi {
+   font-size: 35px;
+ }
+
+ #bio {
+   flex-direction: column;
  }
 
  #Work {
@@ -95,12 +103,12 @@ section {
 
  .projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     padding: 10px;
     border: 10px;
     margin: 20px;
-    flex: 1 0 600px;
+   flex: 1 0 500px;
  }
 
 .projects img {
@@ -112,7 +120,7 @@ width: 100%;
 .projects p {
    margin: 0;
    padding: 10px;
-   font-size: 20px;
+   font-size: 35px;
 }
  
  footer {
@@ -201,6 +209,10 @@ color: blue;
 
    .AboutMe p {
       font-size: 35px;
+   }
+
+   .projects {
+     flex: 1 0 300px;
    }
 
    #ContactMe {
