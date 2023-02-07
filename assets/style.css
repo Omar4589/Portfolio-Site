@@ -43,6 +43,9 @@ header nav a {
 .quote {
     font-size: 35px;
    text-align: center;
+   margin: 50px 300px;
+   border-top-style: solid;
+   border-bottom-style: solid 
 }
 
 section {
@@ -184,6 +187,10 @@ color: blue;
    body  {
       width: 100vh;
    }
+
+   .quote {
+     margin: 50px 100px;
+  }
 
    #AboutMe {
       font-size: 45px;
